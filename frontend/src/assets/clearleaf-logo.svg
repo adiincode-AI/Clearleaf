@@ -1,0 +1,40 @@
+<svg width="100%" viewBox="0 0 680 280" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Clearleaf logo</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A warm botanical logo featuring a stylized leaf mark beside the wordmark "clearleaf" in serif and sans-serif type, using the brand palette of deep brown and warm tan.</desc>
+
+  
+
+  <g transform="translate(120, 60)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+
+    <!-- Leaf mark: layered organic shape -->
+    <!-- Shadow leaf (back) -->
+    <path d="M68 130 C68 130 10 110 8 60 C6 20 40 4 60 2 C80 0 110 16 112 56 C114 96 80 118 68 130Z" fill="#995F2F" opacity="0.25" style="fill:rgb(153, 95, 47);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Main leaf -->
+    <path d="M60 122 C60 122 4 102 2 52 C0 12 34 -4 54 -6 C74 -8 104 8 106 48 C108 88 72 110 60 122Z" fill="#622B14" style="fill:rgb(98, 43, 20);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Leaf highlight / vein area -->
+    <path d="M56 112 C56 112 16 90 14 52 C12 22 36 8 52 6 C62 5 76 12 82 28 C70 24 54 28 44 46 C34 64 42 90 56 112Z" fill="#7a3318" style="fill:rgb(122, 51, 24);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Center vein -->
+    <path d="M56 112 C52 88 44 64 48 42 C52 22 62 10 54 6" fill="none" stroke="#E4D6A9" stroke-width="1.8" stroke-linecap="round" opacity="0.6" style="fill:none;stroke:rgb(228, 214, 169);color:rgb(0, 0, 0);stroke-width:1.8px;stroke-linecap:round;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Side veins -->
+    <path d="M54 80 C62 72 72 70 82 72" fill="none" stroke="#E4D6A9" stroke-width="1.2" stroke-linecap="round" opacity="0.4" style="fill:none;stroke:rgb(228, 214, 169);color:rgb(0, 0, 0);stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <path d="M51 62 C58 52 68 50 76 50" fill="none" stroke="#E4D6A9" stroke-width="1.2" stroke-linecap="round" opacity="0.4" style="fill:none;stroke:rgb(228, 214, 169);color:rgb(0, 0, 0);stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <path d="M50 44 C56 36 64 34 70 36" fill="none" stroke="#E4D6A9" stroke-width="1.2" stroke-linecap="round" opacity="0.35" style="fill:none;stroke:rgb(228, 214, 169);color:rgb(0, 0, 0);stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:miter;opacity:0.35;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Small accent leaf (bottom right of main leaf) -->
+    <path d="M80 108 C80 108 96 94 102 78 C108 62 100 52 92 52 C84 52 76 62 76 78 C72 92 78 104 80 108Z" fill="#995F2F" opacity="0.7" style="fill:rgb(153, 95, 47);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Wordmark -->
+    <text x="126" y="84" style="fill:rgb(44, 26, 15);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;DM Serif Display&quot;, Georgia, serif;font-size:52px;font-weight:400;text-anchor:start;dominant-baseline:auto">clearleaf</text>
+
+    <!-- Tagline -->
+    <text x="130" y="112" style="fill:rgb(151, 143, 102);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;DM Sans&quot;, sans-serif;font-size:13px;font-weight:600;text-anchor:start;dominant-baseline:auto">FOCUS &amp; FLOW</text>
+
+    <!-- Thin rule under tagline -->
+    <line x1="130" y1="120" x2="390" y2="120" stroke="#978F66" stroke-width="0.8" opacity="0.5" style="fill:rgb(0, 0, 0);stroke:rgb(151, 143, 102);color:rgb(0, 0, 0);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  </g>
+</svg>
