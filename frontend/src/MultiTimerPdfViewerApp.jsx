@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import AIResponse from "./components/AIResponse";
 
 // ─── Icons (inline SVG components) ───────────────────────────────────────────
 const UploadIcon = () => (
@@ -587,6 +588,39 @@ export default function MultiTimerPdfViewerApp({ user, token, onLogout }) {
         ::-webkit-scrollbar-track { background: transparent; }
         ::-webkit-scrollbar-thumb { background: rgba(151,143,102,0.4); border-radius: 99px; }
         textarea:focus, input:focus { outline: none; }
+        .markdown-content {
+    line-height: 1.7;
+    word-break: break-word;
+  }
+
+  .markdown-content p {
+    margin: 8px 0;
+  }
+
+  .markdown-content h1,
+  .markdown-content h2,
+  .markdown-content h3 {
+    margin: 10px 0;
+  }
+
+  .markdown-content ul,
+  .markdown-content ol {
+    padding-left: 20px;
+  }
+
+  .markdown-content code {
+    background: rgba(98,43,20,0.08);
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+
+  .markdown-content pre {
+    overflow-x: auto;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(98,43,20,0.05);
+  }
+
       `}</style>
 
       <div style={{
@@ -906,7 +940,7 @@ export default function MultiTimerPdfViewerApp({ user, token, onLogout }) {
                     <div style={{ fontSize: "10px", fontWeight: "700", letterSpacing: "0.7px", textTransform: "uppercase", color: "#978F66", marginBottom: "8px" }}>
                       Response
                     </div>
-                    {answer}
+                    <AIResponse content={answer} />
                   </div>
                 )}
               </div>
