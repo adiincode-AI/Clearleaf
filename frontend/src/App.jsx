@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import AuthPage from "./AuthPage";
 import MultiTimerPdfViewerApp from "./MultiTimerPdfViewerApp";
+import { API_URL } from "./config";
 
 export default function App() {
   const [user, setUser] = useState(null);
@@ -14,7 +15,7 @@ export default function App() {
 
     if (savedToken && savedUser) {
       // Verify token is still valid
-      fetch("http://localhost:8000/auth/me", {
+      fetch(`${API_URL}/auth/me`, {
         headers: { Authorization: `Bearer ${savedToken}` },
       })
         .then((res) => {

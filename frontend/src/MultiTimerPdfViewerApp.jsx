@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import AIResponse from "./components/AIResponse";
+import { API_URL } from "./config";
 
 // ─── Icons (inline SVG components) ───────────────────────────────────────────
 const UploadIcon = () => (
@@ -374,7 +375,7 @@ export default function MultiTimerPdfViewerApp({ user, token, onLogout }) {
     formData.append("file", file);
 
     try {
-      const res = await fetch("http://localhost:8000/upload-pdf", {
+      const res = await fetch(`${API_URL}/upload-pdf`, {
         method: "POST",
         headers: authHeaders,
         body: formData,
@@ -406,7 +407,7 @@ export default function MultiTimerPdfViewerApp({ user, token, onLogout }) {
     setLoading(true);
     setAiError(false);
     try {
-      const res = await fetch("http://localhost:8000/ask", {
+      const res = await fetch(`${API_URL}/ask`, {
         method: "POST",
         headers: { "Content-Type": "application/json", ...authHeaders },
         body: JSON.stringify({ question }),
@@ -429,7 +430,7 @@ export default function MultiTimerPdfViewerApp({ user, token, onLogout }) {
 
   // Load timers from backend on mount
   useEffect(() => {
-    fetch("http://localhost:8000/timers/", {
+    fetch(`${API_URL}/timers/`, {
       headers: authHeaders,
     })
       .then((res) => res.json())
@@ -455,7 +456,7 @@ export default function MultiTimerPdfViewerApp({ user, token, onLogout }) {
     if (!newTimerName.trim()) return;
     const totalSeconds = newMinutes * 60;
     try {
-      const res = await fetch("http://localhost:8000/timers/", {
+      const res = await fetch(`${API_URL}/timers/`, {
         method: "POST",
         headers: { "Content-Type": "application/json", ...authHeaders },
         body: JSON.stringify({ name: newTimerName, total_seconds: totalSeconds }),
@@ -498,7 +499,7 @@ export default function MultiTimerPdfViewerApp({ user, token, onLogout }) {
             clearInterval(intervalRefs.current[id]);
             delete intervalRefs.current[id];
             // Persist finished state to backend
-            fetch(`http://localhost:8000/timers/${id}`, {
+            fetch(`${API_URL}/timers/${id}`, {
               method: "PUT",
               headers: { "Content-Type": "application/json", ...authHeaders },
               body: JSON.stringify({ remaining_seconds: 0, running: false }),

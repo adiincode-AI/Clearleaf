@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { API_URL } from "./config";
 
 // ─── Leaf Logo (inline) ───────────────────────────────────────────────────────
 const LeafLogo = () => (
@@ -48,7 +49,7 @@ export default function AuthPage({ onAuth }) {
         ? { email: form.email, password: form.password }
         : { name: form.name, email: form.email, password: form.password };
 
-      const res = await fetch(`http://localhost:8000${endpoint}`, {
+      const res = await fetch(`${API_URL}${endpoint}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
